@@ -1,0 +1,185 @@
+.page-body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  gap: .5em;
+  flex-wrap: wrap;
+}
+
+#login-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#p-p-container {
+  background-color: #333; /* Cor de fundo do cabeçalho */
+  width: 100%;
+  padding: 10px; /* Espaçamento interno do cabeçalho */
+  margin-right: 20px; /* Adiciona margem à direita do cabeçalho */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra no cabeçalho */
+  position: fixed; /* Fixa o cabeçalho no topo da página */
+  top: 0; /* Coloca o cabeçalho no topo */
+  z-index: 1000; /* Z-index alto para garantir que fique acima do conteúdo */
+  display: flex;
+  justify-content: space-between; /* Coloca os elementos no espaçamento máximo entre eles */
+  align-items: center; /* Alinha os elementos verticalmente ao centro */
+}
+
+#button-back {
+  background-color: #fff; /* Cor de fundo do botão */
+  color: #333; /* Cor do texto do botão */
+  border: 1px solid #fff; /* Adiciona uma borda branca */
+  padding: 8px 16px; /* Espaçamento interno do botão */
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none; /* Correção na propriedade text-decoration */
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Adiciona a borda à transição */
+  margin-left: 20px;
+}
+
+#button-back:hover {
+  background-color: #333; /* Cor de fundo do botão ao passar o mouse */
+  color: #fff; /* Cor do texto do botão ao passar o mouse */
+  border-color: #fff; /* Cor da borda ao passar o mouse */
+}
+
+#button-back-outra{
+  background-color: #fff; /* Cor de fundo do botão */
+  color: #333; /* Cor do texto do botão */
+  border: 1px solid #fff; /* Adiciona uma borda branca */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none; /* Correção na propriedade text-decoration */
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Adiciona a borda à transição */
+}
+
+#button-back-outra:hover {
+  background-color: #333; /* Cor de fundo do botão ao passar o mouse */
+  color: #fff; /* Cor do texto do botão ao passar o mouse */
+  border-color: #fff; /* Cor da borda ao passar o mouse */
+}
+
+.card {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .borda{
+  border: 1px solid red;
+} */
+
+.corpo{
+  /* flex-wrap: wrap;  */
+}
+
+.wrapCard{
+  flex-direction: column; 
+}
+
+#buttons{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #746d6d;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Botões em preto e branco */
+#btnM, #btnF, #btnE {
+  background-color: #fff; /* Fundo branco */
+  border-radius: 20px;
+  color: #000; /* Texto preto */
+  border: 2px solid #000; /* Borda preta */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 30px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor de mão ao passar por cima */
+  margin-right: 10px; /* Margem direita para espaçamento entre os botões */
+}
+
+/* Efeito de hover para destacar o botão quando o mouse está sobre ele */
+#btnM:hover, #btnF:hover, #btnE:hover {
+  background-color: #000; /* Fundo preto */
+  color: #fff; /* Texto branco */
+}
+
+
+#bodycard {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  gap: 0.9em;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 768px) {
+  #bodycard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #bodycard {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 500px;
+  } */
+
+  /* .detalhesBox{
+    background-color: rgb(238, 0, 0);
+  } */
+.spanStyle {
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#bodyOutra{
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+#imgDetalhes, #contentDetalhes{
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#imgDetalhes{
+  text-align: center;
+}
+
+#imagem_detalhes {
+  max-width: 100%;
+  height: auto;
+}
