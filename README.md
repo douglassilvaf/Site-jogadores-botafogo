@@ -2,4 +2,4 @@
 Repositorio da prova
 ## LINK PARA A PÁGINA
 
-https://douglassilvaf.github.io/dw_p2/
+https://douglassilvaf.github.io/Site-jogadores-botafogo/
